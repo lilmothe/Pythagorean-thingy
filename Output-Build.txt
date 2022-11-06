@@ -1,0 +1,3 @@
+﻿Build started...
+1>------ Build started: Project: C cringe, Configuration: Debug Win32 ------
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
