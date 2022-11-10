@@ -29,7 +29,9 @@ int main()
         //this sets the value of squareRoot to sideA^2 + sideB^2
         std::cout << sqrt(squareRoot) << " in length";
         return 0;
+        //task finished successfully.
     }
+	//^if the user inputs Hypotenuse, the program will ask for the value of sideA and sideB, and then calculate the hypotenuse
 
     if (hypSide == "Side")
     {
@@ -46,7 +48,13 @@ int main()
         std::cout << sqrt(squareRoot) << " in length";
 
         return 0;
+        //task finished successfully.
     }
-
+    //^if the user inputs Side, the program will ask for the value of sideA (the hypotenuse) and sideB, and then calculate the missing side
+    
+    
+    std::cout << "Did you make a typo? the inputs are case sensitive.\n\n";
+	return 1;
+    //something went wrong
 }
 
